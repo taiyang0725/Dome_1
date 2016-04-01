@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.a {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#btn {
+    width: 40px;
+    height: 80px;
+    background-color: #41C75D;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    margin-left: 500px;
+
+}
+
+#btn:hover {
+    background-color: orange;
+}

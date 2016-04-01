@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.ui-content {
+    width: 1000px;
+    height: auto;
+    margin: 5px auto;
+
+}
+
+.ui-content .ui-c-btn {
+    width: 1000px;
+    height: 46px;
+    margin: 0 auto;
+    border-bottom: 1px solid #bbbbbb;
+
+}
+
+.ui-content .ui-c-btn ul {
+
+    float: right;
+    padding-top: 10px;
+}
+
+.ui-content .ui-c-btn li {
+
+    width: 30px;
+    height: 26px;
+    background: url("listype-icon.png");
+    display: block;
+    float: left;
+}
+
+.ui-c-content .divs {
+
+    margin: 10px;
+    width: 240px;
+    padding: 5px;
+    border: 1px solid #bbb;
+}
+
+.ui-c-content .divs-v {
+
+    margin: 10px;
+    width: 240px;
+    padding: 5px;
+}
+
+.ui-c-content .lis {
+    float: left;
+
+}
+
+.ui-c-content .ps {
+    font-size: 16px;
+    margin: 10px 8px;
+}
+
+.ui-c-content .spans {
+    font-size: 14px;
+    margin: 10px 8px;
+}
+
+.ui-c-content .divs-v {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.divs-v .div-img-v {
+    width: 27%;
+    float: left;
+}
+
+.divs-v .div-c-v {
+    width: 73%;
+    float: left;
+
+}
+
+.ui-c-content .lis-v {
+
+}
+
+.ui-c-content .ps-v {
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+
+.ui-c-content .spans-v {
+    font-size: 14px;
+    text-align: right;
+
+}
+
+.ui-c-content .c-main-v {
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+

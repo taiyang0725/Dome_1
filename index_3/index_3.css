@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 298px;
+    height: 98px;
+    border: 1px solid #EEE;
+    margin: 10px;
+    overflow: hidden; /*防止内容艺术*/
+
+}
+
+.content .title {
+    height: 27px;
+    position: relative;
+    background-color: #F3F3F3;
+
+}
+
+.content .title ul {
+    position: absolute;
+    list-style: none;
+    width: 301px;
+
+}
+
+.content .title li {
+    float: left;
+    width: 58px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    padding: 0 1px;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+
+}
+
+.content .title li a:link, .content .title li a:visited {
+    text-decoration: none;
+    color: #000011;
+    font-size: 14px;
+}
+
+.content .title li a:hover {
+    color: orange;
+    font-weight: 700;
+
+}
+
+.title .select {
+    background: #fff;
+}
+

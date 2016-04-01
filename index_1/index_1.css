@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.w-1000 {
+    width: 1000px;
+    margin: 0px auto;
+
+}
+
+.ui .ui-content-left {
+    float: left;
+    width: 226px;
+    min-height: 760px;
+    background-color: #fff;
+}
+
+.ui-content-left .ui-l-head {
+    margin: 20px;
+    text-align: center;
+
+}
+
+.ui-l-head .ui-l-head-img {
+    width: 140px;
+    height: 140px;
+    margin: 0px auto;
+}
+
+.ui-l-head-img img {
+    border-radius: 99px;
+}
+
+.ui-l-head .name {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.2em;
+
+}
+
+.ui-l-head .vip {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.vip-btn {
+    border: 1px solid orange;
+    color: orange;
+    font-size: 14px;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.vip-btn:hover {
+    background-color: orange;
+    color: #ffffff;
+}
+
+.ui-content-left .ui-l-list {
+    margin: 30px;
+    display: inline-block;
+}
+
+.ui-l-list .ul {
+    list-style-type: none;
+
+}
+
+.ui-l-list .ul li {
+    float: left;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 1.2em;
+    text-align: center;
+
+}
+
+.ui-l-list .ul li .ul-li-name {
+    padding: 10px 30px;
+    color: #000;
+}
+
+.ui-l-list .ul li .ul-li-name:hover {
+    color: orange;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.ui-content-right {
+    width: 750px;
+    min-height: 760px;
+    float: right;
+    background-color: #ffffff;
+
+}
+
+.ui-content-right .title {
+    padding: 20px;
+}
+
+.ui-content-right .title span {
+    color: orange;
+    font-size: 20px;
+    font-style: inherit;
+    padding-left: 10px;
+    border-left: 4px solid #000000;
+}
+
+.ui-content-right .explain {
+    padding-left: 20px;
+
+}
+
+.ui-content-right .input {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.ui-content-right .input input{
+    width: 200px;
+    height: 20px;
+    border: 2px solid orange;
+
+}
+
+.ui-content-right .divBtn {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.ui-content-right .divBtn .btn {
+    border: 1px solid orange;
+    padding: 4px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.ui-content-right .divBtn .btn:hover{
+    background-color: orange;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+

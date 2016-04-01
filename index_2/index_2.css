@@ -1,0 +1,343 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+
+}
+
+.ui-head {
+    width: 100%;
+    height: 70px;
+    background-color: #000011;
+}
+
+.ui-head .ui-h-content {
+    width: 1000px;
+    height: 70px;
+    margin: 0px auto;
+    position: relative;
+
+}
+
+.ui-head .ui-h-content .logo {
+    float: left;
+    height: 70px;
+    overflow: hidden;
+    margin-top: 17px;
+
+}
+
+.ui-head .ui-h-content .aid {
+    float: left;
+    height: 70px;
+    overflow: hidden;
+    margin-left: 40px;
+
+
+}
+
+.ui-head .ui-h-content .aid li {
+    float: left;
+    margin-right: 40px;
+    margin-top: 21px;
+
+}
+
+.ui-head .ui-h-content .aid li a {
+    font-size: 14px;
+    color: #dedede;
+}
+
+.ui-head .ui-h-content .aid li a:hover {
+    background-color: #535353;
+    padding: 99px 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+.w-1000 {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.w-1000 .guide {
+    padding: 20px 10px;
+}
+
+.guide a {
+    color: #bbbbbb;
+    font-size: 14px;
+}
+
+.guide i {
+    color: #bbbbbb;
+    font-style: normal;
+    margin: 0 4px;
+}
+
+.guide a:hover {
+    color: #41C75D;
+}
+
+.w-1000 .title {
+    padding: 0px 10px;
+}
+
+.w-1000 .title p {
+    font-size: 20px;
+}
+
+.w-1000 .video {
+    padding: 10px 0px;
+}
+
+.w-1000 .video .video-left {
+    float: left;
+    width: 96%;
+
+}
+
+.w-1000 .video .video-right {
+    float: left;
+    width: 4%;
+    background-color: #535353;
+
+}
+
+.video .video-right .video-function-list {
+    margin: 30px 0px;
+}
+
+.video .video-right .video-function-list li {
+    text-align: center;
+    margin-top: 42px;
+    font-size: 14px;
+
+}
+
+.video .video-right .video-function-list .a {
+    padding-top: 30px;
+}
+
+.video .video-right .video-function-list li a {
+    color: #ffffff;
+
+}
+
+.video .video-right .video-function-list li a:hover {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #41C75D;
+    border-radius: 2px;
+    padding: 1px 3px;
+
+}
+
+.w-1000 .video-explain {
+    background-color: #ffffff;
+    clear: both;
+    padding-top: 20px;
+
+}
+
+.video-explain .left {
+    background-color: #F3F3F3;
+    width: 25%;
+    float: left;
+
+}
+
+.left .left-content {
+    padding: 10px;
+}
+
+.left-content .name {
+    padding-top: 15px;
+    text-align: center
+
+}
+
+.left-content .time {
+    padding-top: 4px;
+    font-size: 12px;
+    color: #bbbbbb;
+    text-align: center
+
+}
+
+.left-content .user-info {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.user-info .icon {
+    float: left;
+
+}
+
+.user-info .icon img {
+    border-radius: 99px;
+    width: 50px;
+    height: 50px;
+}
+
+.user-info .other {
+    float: left;
+    margin-left: 15px;
+
+}
+
+.user-info .other .name {
+    font-size: 14px;
+    text-align: left;
+
+}
+
+.user-info .other .name a {
+    color: #535353;
+}
+
+.user-info .other .work {
+    font-size: 14px;
+    color: #bbbbbb;
+}
+
+.left-content .content {
+    clear: both;
+    padding: 20px 0px 5px 5px;
+
+}
+
+.content li {
+    margin-bottom: 15px;
+}
+
+.content li .key {
+    font-size: 14px;
+    color: #999999;
+}
+
+.content li .value {
+    font-size: 12px;
+    color: #999999;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+.content .collect {
+    width: 230px;
+    height: 45px;
+    line-height: 45px;
+    display: block;
+    background-color: #35B558;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+.content .collect:hover {
+    background-color: #33CC99;
+}
+
+.content .down {
+    width: 230px;
+    height: 45px;
+    line-height: 45px;
+    display: block;
+    background-color: #FF5C00;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+.content .down:hover {
+    background-color: #FF9933;
+}
+
+.video-explain .right {
+    background-color: #fff;
+    width: 75%;
+    float: right;
+
+}
+
+.right .r-content {
+    margin: 10px 15px;
+}
+
+.right .r-content p {
+    border-bottom: 1px solid #f1f1f1;
+    padding: 10px 4px;
+}
+
+.right .r-content p .a {
+
+    color: #001;
+    font-size: 16px;
+    border-bottom: 1px solid #35B558;
+    padding: 10px 3px;
+
+}
+
+.right .r-content p .b {
+    color: #001;
+    font-size: 16px;
+}
+
+.r-content .data-list {
+    margin: 20px 20px 0px 0px;
+}
+
+.data-list .list {
+
+}
+
+.data-list li .name {
+    color: #35B558;
+    font-size: 15px;
+}
+
+.data-list li .time {
+    float: right;
+    font-size: 12px;
+    color: #999999;
+}
+
+.data-list li .content {
+    font-size: 14px;
+    color: #999999;
+}
+
+.w-1000 .bottom {
+    clear: both;
+    background-color: #fff;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
