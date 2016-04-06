@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dedede;
+}
+
+.divs {
+    width: 960px;
+    height: 450px;
+    margin: 200px auto;
+    position: relative;
+
+}
+
+.divs img:hover {
+    z-index: 2;
+    transform: rotate(0deg) scale(1.5);
+    -moz-transform: rotate(0deg) scale(1.5);
+
+}
+
+.divs img {
+    width: 150px;
+    border: 1px solid #999999;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 2px 2px 3px rgba(50, 50, 50, 0.4);
+    z-index: 1;
+    transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in; /* Firefox 4 */
+    position: absolute;
+
+}
+
+.a {
+    left: 400px;
+    top: 20px;
+    transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+}
+
+.b {
+    left: 0px;
+    top: 0px;
+    transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+}
+
+.c {
+    left: 200px;
+    top: 20px;
+    transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+}
+
+.d {
+    left: 100px;
+    top: 40px;
+    transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+}
+
+.e {
+    right: 200px;
+    bottom: 20px;
+    transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+}
+
+.f {
+    left: 50px;
+    top: 90px;
+    transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+}
+
+.g {
+    left: 10px;
+    bottom: 100px;
+    transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+}
+
+.h {
+    left: 400px;
+    top: 20px;
+    transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+}
+
+.i {
+    left: 500px;
+    top: 20px;
+    transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+}
+
+.j {
+    left: 700px;
+    top: 20px;
+    transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+}
